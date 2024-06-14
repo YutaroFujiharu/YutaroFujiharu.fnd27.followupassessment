@@ -1,0 +1,59 @@
+/* This is a 'stylesheet'. 
+It defines how the elements appear when they are rendered by the browser. */
+
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 100%;
+  justify-content: center;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 20pt;
+  height: 50px;
+  width: 200px;
+}
+
+#birthday-button {
+  font-family: cursive;
+  position: absolute;
+  bottom: 20px;
+  font-size: 24;
+  height: 80px;
+  width: 300;
+}
+
+#birthday {
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+#comment {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  position: fixed;
+  top: 400px;
+  z-index: 1;
+}
+
+#image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 0;
+}
